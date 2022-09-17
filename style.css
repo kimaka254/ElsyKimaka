@@ -1,11 +1,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
+html , body {
     font-family: "Open Sans", sans-serif;
     margin: 0px;
-    overflow-x: hidden;
-    width: 100%;
+    width: auto!important;
+    overflow-x: hidden!important;
     
   }
   
@@ -329,7 +329,8 @@ article h3{
     header{
     background: #fff;
     border-right: 1px solid #e6e9ec;
-    text-align: justify;
+    align-items: center;
+    text-align: center;
   
       }
     #hero {
